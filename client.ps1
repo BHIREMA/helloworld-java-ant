@@ -1,1 +1,1 @@
-﻿psexec \\10.156.1.20 -u AMETEK-AD\BHiremath -p 3927@Deepa -i -d 2 cmd /c java -jar C:\TestAutomation\Commonplatform\Cockpit_jar\Cockpit_jar\Cockpit.jar
+﻿psexec \\10.156.1.20 -u AMETEK-AD\BHiremath -p 3927@Deepa -i 2 cmd /c java -jar C:\TestAutomation\Commonplatform\Cockpit_jar\Cockpit_jar\Cockpit.jar
