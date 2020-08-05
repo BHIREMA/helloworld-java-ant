@@ -1,1 +1,1 @@
-﻿powershell -noprofile -command "&{ start-process powershell -ArgumentList '-noprofile -file C:\Users\BHiremath\Desktop\runMe.ps1' -verb RunAs}"
+﻿psexec \\10.156.1.20 -u AMETEK-AD\BHiremath -p 3927@Deepa -i 2 powershell -noprofile -command "&{ start-process powershell -ArgumentList '-noprofile -file C:\Users\BHiremath\Desktop\runMe.ps1' -verb RunAs}"
